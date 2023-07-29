@@ -3,7 +3,9 @@
 #include<iostream>
 
 int main() {
-    for(int i=1;i<=10;i+=1){
+    for(int i=1;i<=10;i+=1){                // First one in parentheses is assingment and definition for variable
+                                            // Second one after semicolon is the range of variable
+                                            // Third one after semicolon is the how the variable can be changed.
         std::cout<<"Happy birthday\n";
     }
 

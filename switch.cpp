@@ -22,7 +22,7 @@ int main(){
         case 'F':
             std::cout<<"failed";
             break;
-        default:                                        //We need a default case to return if no case matches with the variable
+        default:                  //We need a default case to return if no case matches with the variable
             std::cout<<"pls enter 1 letter from A-F";
 
 

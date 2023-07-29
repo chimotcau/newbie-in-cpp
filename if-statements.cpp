@@ -10,12 +10,12 @@ int main(){
     std::cout<<"Enter your age ";
     std::cin>>age;
 
-    if(age >=100){                       //  Check the condition insite the parenthesis, 
+    if(age >=100){                       //  Check the condition insite the parentheses, 
         std::cout<<"you are too old ";   //  if satisfies then excute the staments in the curly braces.
     }
 
-    else if(age>=18){                    // The "==" is not a comparison, it an assignment operation
-        std::cout<<"welcome";
+    else if(age>=18){                    // If want to check another condition, we use the else if statement.
+        std::cout<<"welcome";            // The "==" is not a comparison, it an assignment operation
     }
     else{                                // The else doesn't have the parenthesis, only curly braces
         std::cout<<"get out";

@@ -18,12 +18,8 @@ void printnum(){
 }
 void printnum1(){
     int mynum=4;
-    std::cout<<::mynum;
+    std::cout<<::mynum;        //We can put precede Local variable 2 colons "::" to use the Global variable.
 }
-
-
-
-
 
 // If we perform some task inside the function with variable, 
 // so it perfer the local variable more than the global variable
