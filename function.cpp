@@ -8,7 +8,7 @@ void happybirthday(std::string name, int age);    // Declare the function and th
 int main(){
     std::string name="Khoa";
     int age=19;
-    happybirthday(name,age);                      // Call the function inside the main function with the parameters.
+    //happybirthday(name,age);                      // Call the function inside the main function with the parameters.
     return 0;
 }
 void happybirthday(std::string name, int age){    //Define the function that perform specific tasks.
